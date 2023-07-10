@@ -25,6 +25,7 @@ h2 {
   text-align: right;
   margin: 0 auto 1rem 1rem;
   font-size: min(2.8vw,14px);
+  margin-right: 1rem;
 }
 
 /*role_list_cards*/
