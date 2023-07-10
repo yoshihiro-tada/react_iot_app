@@ -9,8 +9,7 @@ import styles from './Header.module.css';
 class Top extends React.Component {
   render() {
     return (
-      <div className="top_main">
-        <main className={styles.main}>
+      <React.Fragment>
           <h2>新着通知</h2>
           <div className={styles.latest_news_sticky_note}>
             <time>XXXX.XX.XX XX:XX:XX</time>
@@ -37,9 +36,7 @@ class Top extends React.Component {
             <p>継続稼働時間：変数</p>
           </div>
         </div>
-
-        </main>
-      </div>
+      </React.Fragment>
     );
   }
 }

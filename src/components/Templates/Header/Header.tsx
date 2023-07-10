@@ -14,7 +14,8 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 const Header = () => {
   return (
-      <div className="header">
+    <React.Fragment>
+      <header>
         <div className={styles.header_bar}>
           <div className={styles.header_hum_open_btn}>
             <button>
@@ -26,7 +27,8 @@ const Header = () => {
           </div>
         </div>
         <Modal />
-      </div>
+      </header>
+    </React.Fragment>
   );
 };
 

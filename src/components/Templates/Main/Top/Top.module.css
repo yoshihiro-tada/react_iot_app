@@ -1,8 +1,3 @@
-/*main layout*/
-.main{
-  padding: 0.8rem;
-}
-
 /*latest_news_sticky_note*/
 .latest_news_sticky_note{
   border: 1px solid #bbb;
@@ -10,8 +5,9 @@
   padding: 1rem 0 1rem 1rem;
   background-color: #eee;
   width: 90%;
-  margin: 0 auto 2.4rem;
+  margin: 0 auto 2rem 0.5rem;
   box-shadow: 4px 4px 4px #ddd;
+  max-width: 1000px;
 }
 .latest_news_sticky_note p{
   margin-bottom: 0;
@@ -19,6 +15,9 @@
 }
 .latest_news_sticky_note_more_link{
   text-align: right;
+  margin: 0 auto 1rem 1rem;
+  width: 90%;
+  max-width: 1000px;
 }
 
 /*role_list_cards*/
@@ -27,8 +26,9 @@
   border: 0.1rem solid #bbb;
   border-radius: 0.8rem;
   width: 90%;
-  margin: 0 auto 2.4rem;
+  margin: 0 auto 2rem 0.5rem;
   padding: 0 1rem;
   background-color: #eee;
   box-shadow: 4px 4px 4px #ddd;
+  max-width: 1000px;
 }

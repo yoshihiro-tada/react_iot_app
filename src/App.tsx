@@ -11,23 +11,19 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Routes>
-        <Route path="/" element={<Top/>} />
-        <Route path="/login" element={<Login/>} />
-        <Route path="/location" element={<Location/>} />
-        <Route path="/notice" element={<Notice/>} />
-        <Route path="/setting" element={<Setting/>} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/" element={<Top/>} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/location" element={<Location/>} />
+          <Route path="/notice" element={<Notice/>} />
+          <Route path="/setting" element={<Setting/>} />
+        </Routes>
+      </main>
       <Footer />
     </BrowserRouter>
   );
 }
-
-/*
-function Top() {
-  return <h2>新着情報</h2>;
-}
-*/
 
 function Login() {
   return <h2>ログイン</h2>;
