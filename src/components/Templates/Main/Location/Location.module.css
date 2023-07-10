@@ -18,6 +18,7 @@ h3 {
   display: flex;
   font-size: min(2.8vw,14px);
   margin-left: 0.8rem;
+  align-items: center;
 }
 .ex_box_flex p{
   margin: 0;
