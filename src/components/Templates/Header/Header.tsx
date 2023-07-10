@@ -47,28 +47,28 @@ function Modal() {
           </a>
         </li>
         <li className={styles.header_hum_menu_list}>
-          <a href="/">
+          <a href="/login">
             <span><AccountCircleIcon /></span>
             LOGIN/MY PAGE
             <span className={styles.arrow}><KeyboardArrowRightIcon /></span>
           </a>
         </li>
         <li className={styles.header_hum_menu_list}>
-          <a href="/">
+          <a href="/location">
             <span><PlaceIcon /></span>
             LOCATION
             <span className={styles.arrow}><KeyboardArrowRightIcon /></span>
           </a>
         </li>
         <li className={styles.header_hum_menu_list}>
-          <a href="/">
+          <a href="/notice">
             <span><NotificationsIcon /></span>
             NOTICE
             <span className={styles.arrow}><KeyboardArrowRightIcon /></span>
           </a>
         </li>
         <li className={styles.header_hum_menu_list}>
-          <a href="/">
+          <a href="/setting">
             <span><SettingsIcon /></span>
             SETTING
             <span className={styles.arrow}><KeyboardArrowRightIcon /></span>
