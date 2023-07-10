@@ -23,7 +23,7 @@ const Header = () => {
             </button>
           </div>
           <div className={styles.header_profile_icon}>
-            <AccountCircleIcon />
+              <MenuIcon />
           </div>
         </div>
         <Modal />

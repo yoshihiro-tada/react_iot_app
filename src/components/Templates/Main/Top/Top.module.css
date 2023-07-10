@@ -1,3 +1,9 @@
+h2 {
+  font-size: min(3.2vw,18px);
+  margin-top: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
 /*latest_news_sticky_note*/
 .latest_news_sticky_note{
   border: 1px solid #bbb;
@@ -9,26 +15,39 @@
   box-shadow: 4px 4px 4px #ddd;
   max-width: 1000px;
 }
+.latest_news_sticky_note time{
+  font-size: min(3vw,16px);
+}
 .latest_news_sticky_note p{
   margin-bottom: 0;
   margin-top: 0.8rem;
+  font-size: min(2.8vw,14px);
 }
 .latest_news_sticky_note_more_link{
   text-align: right;
   margin: 0 auto 1rem 1rem;
   width: 90%;
   max-width: 1000px;
+  font-size: min(2.8vw,14px);
 }
 
 /*role_list_cards*/
-
 .role_list_card{
   border: 0.1rem solid #bbb;
   border-radius: 0.8rem;
-  width: 90%;
+  width: 88.8%;
   margin: 0 auto 2rem 0.5rem;
   padding: 0 1rem;
   background-color: #eee;
   box-shadow: 4px 4px 4px #ddd;
   max-width: 1000px;
+}
+.role_list_card p{
+  font-size: min(2.8vw,14px);
+}
+.role_list_card p.mashine_num{
+  margin-bottom: 0.4rem;
+}
+.role_list_card p.duration_time{
+  margin-top: 0.4rem;
 }

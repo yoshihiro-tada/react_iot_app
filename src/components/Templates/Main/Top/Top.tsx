@@ -32,8 +32,8 @@ class Top extends React.Component {
           <h2>担当機器リスト</h2>
         <div className={styles.role_list_cards}>
           <div className={styles.role_list_card}>
-            <p>機器番号：変数</p>
-            <p>継続稼働時間：変数</p>
+            <p className={styles.mashine_num}>機器番号：変数</p>
+            <p className={styles.duration_time}>継続稼働時間：変数</p>
           </div>
         </div>
       </React.Fragment>
