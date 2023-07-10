@@ -1,0 +1,31 @@
+import React from 'react';
+import styles from './Location.module.css';
+
+/*MUI Icon*/
+import SquareIcon from '@mui/icons-material/Square';
+
+class Location extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+          <h2>ロケーション</h2>
+            <h3>凡例</h3>
+            <div className={styles.ex_box_flex}>
+              <SquareIcon className={styles.ex_box_on} />
+              <p>:稼働中</p>
+            </div>
+            <div className={styles.ex_box_flex}>
+              <SquareIcon className={styles.ex_box_off} />
+              <p>:停止中</p>
+            </div>
+            <div className={styles.location_wrap_box}>
+              <div className={styles.rows_flex}>
+                <SquareIcon /><SquareIcon /><SquareIcon /><SquareIcon />
+              </div>
+            </div>
+      </React.Fragment>
+    );
+  }
+}
+
+export default Location;

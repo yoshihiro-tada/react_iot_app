@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Templates/Header/Header';
 import Top from './components/Templates/Main/Top/Top';
+import Location from './components/Templates/Main/Location/Location';
 import Footer from './components/Templates/Footer/Footer';
 import './App.css';
 
@@ -27,10 +28,6 @@ function App() {
 
 function Login() {
   return <h2>ログイン</h2>;
-}
-
-function Location() {
-  return <h2>ロケーション</h2>;
 }
 
 function Notice() {
