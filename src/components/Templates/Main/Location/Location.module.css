@@ -22,6 +22,7 @@ h3 {
 }
 .ex_box_flex p{
   margin: 0;
+  padding-bottom: 0.1rem;
 }
 .ex_box_on{
   color: green;
