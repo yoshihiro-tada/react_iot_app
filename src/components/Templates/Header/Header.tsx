@@ -19,7 +19,7 @@ const Header = () => {
         <div className={styles.header_bar}>
           <div className={styles.header_hum_open_btn}>
             <button>
-              <MenuIcon />
+              <img src="/logo.png" alt="fkushin-logo"/>
             </button>
           </div>
           <div className={styles.header_profile_icon}>
