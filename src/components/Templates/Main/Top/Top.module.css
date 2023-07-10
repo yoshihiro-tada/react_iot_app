@@ -10,10 +10,8 @@ h2 {
   border-left: 0.4rem solid #191970;
   padding: 1rem 0 1rem 1rem;
   background-color: #eee;
-  width: 90%;
   margin: 0 auto 2rem 0.5rem;
   box-shadow: 4px 4px 4px #ddd;
-  max-width: 1000px;
 }
 .latest_news_sticky_note time{
   font-size: min(3vw,16px);
@@ -26,8 +24,6 @@ h2 {
 .latest_news_sticky_note_more_link{
   text-align: right;
   margin: 0 auto 1rem 1rem;
-  width: 90%;
-  max-width: 1000px;
   font-size: min(2.8vw,14px);
 }
 
@@ -35,12 +31,10 @@ h2 {
 .role_list_card{
   border: 0.1rem solid #bbb;
   border-radius: 0.8rem;
-  width: 88.8%;
   margin: 0 auto 2rem 0.5rem;
   padding: 0 1rem;
   background-color: #eee;
   box-shadow: 4px 4px 4px #ddd;
-  max-width: 1000px;
 }
 .role_list_card p{
   font-size: min(2.8vw,14px);
