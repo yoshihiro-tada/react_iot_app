@@ -3,14 +3,21 @@ h2 {
   margin-top: 0.4rem;
   margin-bottom: 0.8rem;
 }
+p.introduce {
+  font-size: min(2.8vw,14px);
+  margin-left:0.4rem;
+}
 h3 {
   font-size: min(3vw,16px);
   margin-top: 0.4rem;
   margin-bottom: 0.8rem;
+  margin-left: 0.4rem;
 }
 
 .ex_box_flex{
   display: flex;
+  font-size: min(2.8vw,14px);
+  margin-left: 0.8rem;
 }
 .ex_box_flex p{
   margin: 0;

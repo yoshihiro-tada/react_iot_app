@@ -9,6 +9,7 @@ class Location extends React.Component {
     return (
       <React.Fragment>
           <h2>ロケーション</h2>
+            <p className={styles.introduce}>機械場の編み機の稼働状況が一覧で確認できます。</p>
             <h3>凡例</h3>
             <div className={styles.ex_box_flex}>
               <SquareIcon className={styles.ex_box_on} />
