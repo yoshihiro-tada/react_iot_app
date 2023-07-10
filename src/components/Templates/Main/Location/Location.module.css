@@ -24,12 +24,14 @@ h3 {
   margin: 0;
   padding-bottom: 0.1rem;
 }
+/*
 .ex_box_on{
   color: green;
 }
 .ex_box_off{
   color: red;
 }
+*/
 
 .location_wrap_box {
   border: 2px solid #898989;
