@@ -21,6 +21,42 @@ class Notice extends React.Component {
             <time>XXXX.XX.XX XX:XX:XX</time>
             <p>機械番号:"{"変数"}"が停止しました。</p>
           </div>
+          <div className={styles.latest_news_sticky_note}>
+            <time>XXXX.XX.XX XX:XX:XX</time>
+            <p>機械番号:"{"変数"}"が停止しました。</p>
+          </div>
+          <div className={styles.latest_news_sticky_note}>
+            <time>XXXX.XX.XX XX:XX:XX</time>
+            <p>機械番号:"{"変数"}"が停止しました。</p>
+          </div>
+          <div className={styles.latest_news_sticky_note}>
+            <time>XXXX.XX.XX XX:XX:XX</time>
+            <p>機械番号:"{"変数"}"が停止しました。</p>
+          </div>
+          <div className={styles.latest_news_sticky_note}>
+            <time>XXXX.XX.XX XX:XX:XX</time>
+            <p>機械番号:"{"変数"}"が停止しました。</p>
+          </div>
+          <div className={styles.latest_news_sticky_note}>
+            <time>XXXX.XX.XX XX:XX:XX</time>
+            <p>機械番号:"{"変数"}"が停止しました。</p>
+          </div>
+          <div className={styles.latest_news_sticky_note}>
+            <time>XXXX.XX.XX XX:XX:XX</time>
+            <p>機械番号:"{"変数"}"が停止しました。</p>
+          </div>
+          <div className={styles.latest_news_sticky_note}>
+            <time>XXXX.XX.XX XX:XX:XX</time>
+            <p>機械番号:"{"変数"}"が停止しました。</p>
+          </div>
+          <div className={styles.latest_news_sticky_note}>
+            <time>XXXX.XX.XX XX:XX:XX</time>
+            <p>機械番号:"{"変数"}"が停止しました。</p>
+          </div>
+          <div className={styles.latest_news_sticky_note}>
+            <time>XXXX.XX.XX XX:XX:XX</time>
+            <p>機械番号:"{"変数"}"が停止しました。</p>
+          </div>
           {/* ↑繰り返し(後で削除)↑ */}
       </React.Fragment>
     );
