@@ -16,37 +16,37 @@ const Navigation = () => {
         <ul className={styles.header_hum_menu_lists}>
           <li className={styles.header_hum_menu_list}>
             <a href="/">
-              <span><HomeIcon /></span>
+              <span><HomeIcon fontSize="large"/></span>
               TOP
-              <span className={styles.arrow}><KeyboardArrowRightIcon /></span>
+              <span className={styles.arrow}><KeyboardArrowRightIcon fontSize="large"/></span>
             </a>
           </li>
           <li className={styles.header_hum_menu_list}>
             <a href="/login">
-              <span><AccountCircleIcon /></span>
+              <span><AccountCircleIcon fontSize="large"/></span>
               LOGIN/MY PAGE
-              <span className={styles.arrow}><KeyboardArrowRightIcon /></span>
+              <span className={styles.arrow}><KeyboardArrowRightIcon fontSize="large"/></span>
             </a>
           </li>
           <li className={styles.header_hum_menu_list}>
             <a href="/location">
-              <span><PlaceIcon /></span>
+              <span><PlaceIcon fontSize="large"/></span>
               LOCATION
-              <span className={styles.arrow}><KeyboardArrowRightIcon /></span>
+              <span className={styles.arrow}><KeyboardArrowRightIcon fontSize="large"/></span>
             </a>
           </li>
           <li className={styles.header_hum_menu_list}>
             <a href="/notice">
-              <span><NotificationsIcon /></span>
+              <span><NotificationsIcon fontSize="large"/></span>
               NOTICE
-              <span className={styles.arrow}><KeyboardArrowRightIcon /></span>
+              <span className={styles.arrow}><KeyboardArrowRightIcon fontSize="large"/></span>
             </a>
           </li>
           <li className={styles.header_hum_menu_list}>
             <a href="/setting">
-              <span><SettingsIcon /></span>
+              <span><SettingsIcon fontSize="large"/></span>
               SETTING
-              <span className={styles.arrow}><KeyboardArrowRightIcon /></span>
+              <span className={styles.arrow}><KeyboardArrowRightIcon fontSize="large"/></span>
             </a>
           </li>
         </ul>
