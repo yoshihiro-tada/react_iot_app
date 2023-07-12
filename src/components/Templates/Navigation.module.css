@@ -14,6 +14,7 @@
 
 .navigation[aria-hidden="false"] {
   display: flex;
+  z-index: 10;
 }
 
 /*hum_menu*/

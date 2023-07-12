@@ -10,7 +10,7 @@
   width: 2.5rem;
   height: 2.5rem;
   overflow: hidden;
-  z-index: 2;
+  z-index: 12;
 }
 .humButton > span {
   position: absolute;
