@@ -1,4 +1,5 @@
 import React from 'react';
+import { FC } from "react";
 import styles from './Navigation.module.css';
 
 /*MUI icon*/
@@ -9,10 +10,15 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import SettingsIcon from '@mui/icons-material/Settings';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
-const Navigation = () => {
+type Props = {
+  open: boolean;
+  id: string;
+};
+
+export const Navigation: FC<Props> = ({ open, id }) => {
   return (
     <React.Fragment>
-      <nav>
+      <nav id={id} aria-hidden={!open} className={styles.navigation}>
         <ul className={styles.header_hum_menu_lists}>
           <li className={styles.header_hum_menu_list}>
             <a href="/">
@@ -52,7 +58,7 @@ const Navigation = () => {
         </ul>
       </nav>
     </React.Fragment>
-  );
-}
+  )
+};
 
 export default Navigation;

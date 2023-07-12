@@ -1,12 +1,19 @@
 import React from 'react';
 import styles from './Header.module.css';
+import { FC, useState } from "react";
+import { HumButton } from './HumButton'
 import Navigation from './Navigation'
 
 /*MUI icon*/
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
-const Header = () => {
+const Header: FC = () => {
+  const [open, setOpen] = useState(false);
+  const toggleFunction = () => {
+    setOpen((prevState) => !prevState);
+  };
+
   return (
     <React.Fragment>
       <header>
@@ -17,15 +24,25 @@ const Header = () => {
             </a>
           </div>
           <div className={styles.header_profile_icon}>
-              <MenuIcon />
+              {/*<MenuIcon />*/}
+            <HumButton 
+              open = { open }
+              controls = "navigation"
+              label = "メニューを開きます"
+              onClick = {toggleFunction}
+            />
           </div>
         </div>
+        <Navigation id="navigation" open={open}/>
+        {/*
         <Modal />
+        */}
       </header>
     </React.Fragment>
   );
 };
 
+/*
 function Modal() {
   return (
     <div className={styles.header_hum_menu_bg}>
@@ -38,5 +55,6 @@ function Modal() {
     </div>
   );
 }
+*/
 
 export default Header;

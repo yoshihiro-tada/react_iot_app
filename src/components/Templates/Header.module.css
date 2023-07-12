@@ -71,3 +71,19 @@
   margin-left: 0.125rem;
   padding-top: 0.25rem;
 }
+
+
+button.humButton{
+  appearance: none;
+  border: none;
+  background: transparent;
+  outline: none;
+  border-radius: 0;
+  letter-spacing: inherit;
+  cursor: pointer;
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  overflow: hidden;
+  z-index: 2;
+}
