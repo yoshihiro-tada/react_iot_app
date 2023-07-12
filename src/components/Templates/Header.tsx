@@ -18,12 +18,12 @@ const Header: FC = () => {
     <React.Fragment>
       <header>
         <div className={styles.header_bar}>
-          <div className={styles.header_hum_open_btn}>
+          <div className={styles.header_logo_btn}>
             <a href="/">
               <img src="/logo.png" alt="fkushin-logo"/>
             </a>
           </div>
-          <div className={styles.header_profile_icon}>
+          <div className={styles.header_hum_open_btn}>
               {/*<MenuIcon />*/}
             <HumButton 
               open = { open }
