@@ -12,9 +12,9 @@ const Header = () => {
       <header>
         <div className={styles.header_bar}>
           <div className={styles.header_hum_open_btn}>
-            <button>
+            <a href="/">
               <img src="/logo.png" alt="fkushin-logo"/>
-            </button>
+            </a>
           </div>
           <div className={styles.header_profile_icon}>
               <MenuIcon />
