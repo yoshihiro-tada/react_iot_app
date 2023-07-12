@@ -13,7 +13,7 @@ class Setting extends React.Component {
         <h2>設定</h2>
         <div className={styles.setting_content}>
           <h3>LINE WORKS</h3>
-          <Button variant="contained">LINE WORKSと連携する</Button>
+          <Button variant="contained" size="large">LINE WORKSと連携する</Button>
         </div>
         <div className={styles.setting_content}>
           <h3>通知</h3>

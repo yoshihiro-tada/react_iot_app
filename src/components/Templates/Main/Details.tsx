@@ -14,7 +14,7 @@ class Details extends React.Component {
           <li>継続[稼働/停止]時間:XX:XX:XX</li>
           <li>
             <div>担当者:●●</div>
-            <Button variant="contained">担当者を変更</Button>
+            <Button variant="contained" size="large">担当者を変更</Button>
           </li>
         </ul>
         <p>ここにグラフを描画</p>
