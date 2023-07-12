@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from './Details.module.css';
 
+/*MUI*/
+import Button from '@mui/material/Button';
+
 class Details extends React.Component {
   render() {
     return (
@@ -11,7 +14,7 @@ class Details extends React.Component {
           <li>継続[稼働/停止]時間:XX:XX:XX</li>
           <li>
             <div>担当者:●●</div>
-            <button>担当者を変更</button>
+            <Button variant="contained">担当者を変更</Button>
           </li>
         </ul>
         <p>ここにグラフを描画</p>

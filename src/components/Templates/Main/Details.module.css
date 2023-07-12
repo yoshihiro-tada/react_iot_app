@@ -12,12 +12,3 @@
   align-items: center;
   justify-content: space-between;
 }
-.details_list li button{
-  padding: 0.4rem 1.6rem;
-  border-radius: 1.6rem;
-  border: 1px solid #4169E1;
-  background-color: #4169E1;
-  color: white;
-  box-shadow: 2px 2px 2px #ccc;
-  font-size: min(2.6vw,12px);
-}

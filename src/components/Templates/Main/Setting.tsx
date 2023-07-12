@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from './Setting.module.css';
 
-/*MUI icon*/
+/*MUI*/
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
+import Button from '@mui/material/Button';
 
 class Setting extends React.Component {
   render() {
@@ -12,7 +13,7 @@ class Setting extends React.Component {
         <h2>設定</h2>
         <div className={styles.setting_content}>
           <h3>LINE WORKS</h3>
-          <button>LINE WORKSと連携する</button>
+          <Button variant="contained">LINE WORKSと連携する</Button>
         </div>
         <div className={styles.setting_content}>
           <h3>通知</h3>
