@@ -1,0 +1,45 @@
+h2 {
+  font-size: min(3.2vw,18px);
+  margin-top: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+p.introduce {
+  font-size: min(2.8vw,14px);
+  margin-left:0.4rem;
+}
+h3 {
+  font-size: min(3vw,16px);
+  margin-top: 0.4rem;
+  margin-bottom: 0.8rem;
+  margin-left: 0.4rem;
+}
+
+.ex_box_flex{
+  display: flex;
+  font-size: min(2.8vw,14px);
+  margin-left: 0.8rem;
+  align-items: center;
+}
+.ex_box_flex p{
+  margin: 0;
+  padding-bottom: 0.1rem;
+}
+/*
+.ex_box_on{
+  color: green;
+}
+.ex_box_off{
+  color: red;
+}
+*/
+
+.location_wrap_box {
+  border: 2px solid #898989;
+  padding: 0.8rem;
+  max-width: 1024px;
+  margin-top: 1rem;
+}
+.rows_flex {
+  display: flex;
+  justify-content: space-between;
+}

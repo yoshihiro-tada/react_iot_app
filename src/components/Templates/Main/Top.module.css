@@ -2,6 +2,7 @@ h2 {
   font-size: min(3.2vw,18px);
   margin-top: 0.4rem;
   margin-bottom: 0.8rem;
+  color: #333333;
 }
 
 /*latest_news_sticky_note*/
@@ -29,6 +30,10 @@ h2 {
 }
 
 /*role_list_cards*/
+.role_list_cards a{
+  color: #454545;
+  text-decoration: none;
+}
 .role_list_card{
   border: 0.1rem solid #bbb;
   border-radius: 0.8rem;

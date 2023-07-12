@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Templates/Header';
 import Top from './components/Templates/Main/Top';
+import Details from './components/Templates/Main/Details';
 import Location from './components/Templates/Main/Location';
 import Footer from './components/Templates/Footer';
 import './App.css';
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Top/>} />
+          <Route path="/details" element={<Details/>} />
           <Route path="/login" element={<Login/>} />
           <Route path="/location" element={<Location/>} />
           <Route path="/notice" element={<Notice/>} />
