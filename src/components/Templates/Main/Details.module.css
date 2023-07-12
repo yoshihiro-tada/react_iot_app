@@ -7,11 +7,17 @@
 .details_list li{
   line-height: 1.8;
 }
+.details_list li:last-child{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .details_list li button{
   padding: 0.4rem 1.6rem;
   border-radius: 1.6rem;
-  border: 1px solid #191970;
-  background-color: #191970;
+  border: 1px solid #4169E1;
+  background-color: #4169E1;
   color: white;
   box-shadow: 4px 4px 0 #bbb;
+  font-size: min(2.6vw,12px);
 }

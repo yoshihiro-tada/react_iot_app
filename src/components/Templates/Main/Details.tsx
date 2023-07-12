@@ -9,8 +9,10 @@ class Details extends React.Component {
         <ul className={styles.details_list}>
           <li>機器番号:001</li>
           <li>継続[稼働/停止]時間:XX:XX:XX</li>
-          <li>担当者:●●</li>
-          <li><button>担当者を変更</button></li>
+          <li>
+            <div>担当者:●●</div>
+            <button>担当者を変更</button>
+          </li>
         </ul>
         <p>ここにグラフを描画</p>
       </React.Fragment>
