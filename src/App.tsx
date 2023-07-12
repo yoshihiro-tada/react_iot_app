@@ -4,6 +4,7 @@ import Top from './components/Templates/Main/Top';
 import Details from './components/Templates/Main/Details';
 import Location from './components/Templates/Main/Location';
 import Notice from './components/Templates/Main/Notice';
+import Setting from './components/Templates/Main/Setting';
 import Footer from './components/Templates/Footer';
 import './App.css';
 
@@ -31,10 +32,6 @@ function App() {
 
 function Login() {
   return <h2>ログイン</h2>;
-}
-
-function Setting() {
-  return <h2>設定</h2>;
 }
 
 export default App;
