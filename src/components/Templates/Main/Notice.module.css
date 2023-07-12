@@ -1,0 +1,46 @@
+/*latest_news_sticky_note*/
+.latest_news_sticky_note{
+  border: 1px solid #bbb;
+  border-left: 0.4rem solid #191970;
+  padding: 1rem 0 1rem 1rem;
+  background-color: #eee;
+  margin: 0 auto 2rem 0.5rem;
+  box-shadow: 4px 4px 4px #ddd;
+}
+.latest_news_sticky_note time{
+  font-size: min(3vw,16px);
+}
+.latest_news_sticky_note p{
+  margin-bottom: 0;
+  margin-top: 0.8rem;
+  font-size: min(2.8vw,14px);
+}
+.latest_news_sticky_note_more_link{
+  text-align: right;
+  margin: 0 auto 1rem 1rem;
+  font-size: min(2.8vw,14px);
+  margin-right: 1rem;
+}
+
+/*role_list_cards*/
+.role_list_cards a{
+  color: #454545;
+  text-decoration: none;
+}
+.role_list_card{
+  border: 0.1rem solid #bbb;
+  border-radius: 0.8rem;
+  margin: 0 auto 2rem 0.5rem;
+  padding: 0 1rem;
+  background-color: #eee;
+  box-shadow: 4px 4px 4px #ddd;
+}
+.role_list_card p{
+  font-size: min(2.8vw,14px);
+}
+.role_list_card p.mashine_num{
+  margin-bottom: 0.4rem;
+}
+.role_list_card p.duration_time{
+  margin-top: 0.4rem;
+}

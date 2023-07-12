@@ -3,6 +3,7 @@ import Header from './components/Templates/Header';
 import Top from './components/Templates/Main/Top';
 import Details from './components/Templates/Main/Details';
 import Location from './components/Templates/Main/Location';
+import Notice from './components/Templates/Main/Notice';
 import Footer from './components/Templates/Footer';
 import './App.css';
 
@@ -30,10 +31,6 @@ function App() {
 
 function Login() {
   return <h2>ログイン</h2>;
-}
-
-function Notice() {
-  return <h2>通知一覧</h2>;
 }
 
 function Setting() {
