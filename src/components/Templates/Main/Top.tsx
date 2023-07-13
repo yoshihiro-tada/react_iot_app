@@ -26,7 +26,7 @@ class Top extends React.Component {
           </div>
           {/* ↑繰り返し(後で削除)↑ */}
           <div className={styles.latest_news_sticky_note_more_link}>
-            <a href="/">more</a>
+            <a href="/notice">more</a>
           </div>
 
           <h2>担当機器リスト</h2>
