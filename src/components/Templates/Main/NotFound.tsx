@@ -9,7 +9,7 @@ class NotFound extends React.Component {
     return (
       <React.Fragment>
         <h2>ページが見つかりませんでした</h2>
-        <div>
+        <div className={styles.back_to_top}>
           <a href="/"><Button variant="contained" size="small" sx={{fontSize: 12}}>TOPに戻る</Button></a>
         </div>
       </React.Fragment>
