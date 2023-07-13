@@ -1,0 +1,14 @@
+.details_list{
+  list-style-type: none;
+  font-size: min(2.8vw,14px);
+  color: #333333;
+  padding-left: 1rem;
+}
+.details_list li{
+  line-height: 1.8;
+}
+.details_list li:last-child{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
