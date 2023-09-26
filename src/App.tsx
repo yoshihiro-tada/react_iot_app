@@ -9,6 +9,8 @@ import NotFound from './components/Templates/Main/NotFound';
 import Footer from './components/Templates/Footer';
 import './App.css';
 
+import SignUp from './components/SignUp';
+
 import { BrowserRouter as Router,  Routes,  Route} from "react-router-dom";
 import { BrowserRouter } from 'react-router-dom';
 
@@ -17,6 +19,9 @@ function App() {
     <BrowserRouter>
       <Header />
       <main>
+        <div style={{margin: '2rem'}}>
+          <SignUp />
+        </div>
         <Routes>
           <Route path="/" element={<Top/>} />
           <Route path="/details" element={<Details/>} />
