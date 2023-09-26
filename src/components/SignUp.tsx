@@ -1,10 +1,11 @@
 import React, { FormEvent, useState } from 'react';
+import { auth } from '../firebase';
 
 const SignUp = () => {
   const handleSubmit = (event:any) => {
     event.preventDefault();
     const { email, password } = event.target.elements;
-    console.log(email.value, password.value);
+    auth.createUserWithEmailAndPassword(email.value, password.value);
   };
 
   return (
