@@ -1,9 +1,10 @@
 import React, { FormEvent, useState } from 'react';
 
 const SignUp = () => {
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (event:any) => {
     event.preventDefault();
-    console.log('登録');
+    const { email, password } = event.target.elements;
+    console.log(email.value, password.value);
   };
 
   return (
