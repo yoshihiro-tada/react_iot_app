@@ -6,11 +6,10 @@ import Location from './components/Templates/Main/Location';
 import Notice from './components/Templates/Main/Notice';
 import Setting from './components/Templates/Main/Setting';
 import NotFound from './components/Templates/Main/NotFound';
-import signUp from './components/SignUp';
+import SignUp from './components/SignUp';
+import Login from './components/Login';
 import Footer from './components/Templates/Footer';
 import './App.css';
-
-import SignUp from './components/SignUp';
 
 import { BrowserRouter, Router,  Routes,  Route} from "react-router-dom";
 
@@ -22,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Top/>} />
           <Route path="/signup" element={<SignUp/>} />
+          <Route path="/login" element={<Login/>} />
           <Route path="/details" element={<Details/>} />
           <Route path="/login" element={<Login/>} />
           <Route path="/location" element={<Location/>} />
@@ -34,10 +34,5 @@ function App() {
     </BrowserRouter>
   );
 }
-
-function Login() {
-  return <h2>ログイン</h2>;
-}
-
 
 export default App;
