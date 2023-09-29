@@ -11,17 +11,19 @@ import './App.css';
 
 import SignUp from './components/SignUp';
 
-import { BrowserRouter as Router,  Routes,  Route} from "react-router-dom";
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Router,  Routes,  Route} from "react-router-dom";
+import { AuthProvider } from './context/AuthContext';
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <main>
-        <div style={{margin: '2rem'}}>
-          <SignUp />
-        </div>
+        <AuthProvider>
+          <div style={{margin: '2rem'}}>
+            <SignUp />
+          </div>
+        </AuthProvider>
         <Routes>
           <Route path="/" element={<Top/>} />
           <Route path="/details" element={<Details/>} />
