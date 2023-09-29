@@ -10,7 +10,7 @@ class Top extends React.Component {
   render() {
     return (
       <React.Fragment>
-          <h2>新着通知</h2>
+        <h2>新着通知</h2>
           <div className={styles.latest_news_sticky_note}>
             <time>XXXX.XX.XX XX:XX:XX</time>
             <p>機械番号:"{"変数"}"が停止しました。</p>
@@ -29,7 +29,7 @@ class Top extends React.Component {
             <a href="/notice">もっと見る</a>
           </div>
 
-          <h2>担当機器リスト</h2>
+        <h2>担当機器リスト</h2>
         <div className={styles.role_list_cards}>
           <a href="/details">
             <div className={styles.role_list_card}>

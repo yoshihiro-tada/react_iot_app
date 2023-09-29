@@ -1,5 +1,6 @@
 import React, { FormEvent, useState } from 'react';
 import { auth } from '../firebase';
+import { AuthProvider } from '../context/AuthContext';
 
 const SignUp = () => {
   const handleSubmit = (event:any) => {
@@ -9,8 +10,9 @@ const SignUp = () => {
   };
 
   return (
-    <div>
-      <h1>ユーザー登録</h1>
+    <>
+      <AuthProvider>
+      <h2>ユーザー登録</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label>メールアドレス</label>
@@ -24,7 +26,8 @@ const SignUp = () => {
           <button>登録</button>
         </div>
       </form>
-    </div>
+      </AuthProvider>
+    </>
   );
 };
 
