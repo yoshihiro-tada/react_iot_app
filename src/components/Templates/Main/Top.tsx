@@ -4,12 +4,10 @@ import styles from './Top.module.css';
 import { auth } from '../../../firebase';
 import { useNavigate } from 'react-router-dom';
 
-
 const Top = () => {
   const navigate =useNavigate();
   const handleLogout = () => {
     auth.signOut();
-    /* navigate.push('/login'); */
     navigate('/login');
   };
   return (
