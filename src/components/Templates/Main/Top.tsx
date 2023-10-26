@@ -13,10 +13,10 @@ const Top = () => {
     auth.signOut();
     navigate('/login');
   };
-{/*
+
   if (!user) {
     return <Navigate to="/login" />;
-  } else {*/}
+  } else {
   return (
     <>
       <div>
@@ -54,7 +54,7 @@ const Top = () => {
       </div>
     </>
   );
-{/*  } */}
+  }
 };
 
 export default Top;
