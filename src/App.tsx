@@ -21,15 +21,15 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path="/" element={<Top/>} />
-          <Route path="/signup" element={<SignUp/>} />
-          <Route path="/login" element={<Login/>} />
-          <Route path="/details" element={<Details/>} />
-          <Route path="/login" element={<Login/>} />
-          <Route path="/location" element={<Location/>} />
-          <Route path="/notice" element={<Notice/>} />
-          <Route path="/setting" element={<Setting/>} />
-          <Route path="/*" element={<NotFound/>} />
+          <Route path="/" Component={Top} />
+          <Route path="/signup" Component={SignUp} />
+          <Route path="/login" Component={Login} />
+          <Route path="/details" Component={Details} />
+          <Route path="/login" Component={Login} />
+          <Route path="/location" Component={Location} />
+          <Route path="/notice" Component={Notice} />
+          <Route path="/setting" Component={Setting} />
+          <Route path="/*" Component={NotFound} />
         </Routes>
       </main>
       <Footer />
