@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Top.module.css';
 
+import Welcome from './Welcome'
 import { auth } from '../../../firebase';
 import { useNavigate } from 'react-router-dom';
 
@@ -13,6 +14,7 @@ const Top = () => {
   return (
     <>
       <div>
+        <Welcome />
         <button onClick={handleLogout}>ログアウト</button>
       </div>
       <h2>新着通知</h2>

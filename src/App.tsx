@@ -12,10 +12,12 @@ import Footer from './components/Templates/Footer';
 import './App.css';
 
 import { BrowserRouter, Router,  Routes,  Route} from "react-router-dom";
+import { AuthProvider } from './context/AuthContext';
 
 function App() {
   return (
-    <BrowserRouter>
+    <AuthProvider>
+      <BrowserRouter>
       <Header />
       <main>
         <Routes>
@@ -32,6 +34,7 @@ function App() {
       </main>
       <Footer />
     </BrowserRouter>
+    </AuthProvider>
   );
 }
 
