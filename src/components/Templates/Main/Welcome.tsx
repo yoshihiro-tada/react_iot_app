@@ -11,7 +11,8 @@ const Welcome = () => {
 
   return (
     <>
-      <p>メール：{user.email}</p>
+      <p>↓ここにメールアドレスではなく名前を表示させたい。<br />※firestoreを活用する。</p>
+      {user?.email ? <p>メール：{user.email}</p> : null}
     </>
   );
 };

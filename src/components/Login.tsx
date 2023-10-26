@@ -1,11 +1,13 @@
 import { auth } from '../firebase';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Login = () => {
+  const navigate = useNavigate()
   const handleSubmit = (event:any) => {
     event.preventDefault();
     const { email, password } = event.target.elements;
-    auth.signInWithEmailAndPassword(email.value, password.value);
+    {/* await ←非同期処理の完了を待ちたいが、何故かエラーが出る */} auth.signInWithEmailAndPassword(email.value, password.value);
+    navigate('/');
   };
 
   return (
@@ -21,7 +23,7 @@ const Login = () => {
           <input name="password" type="password" />
         </div>
         <div>
-          <button>ログイン</button>
+            <button>ログイン</button>
         </div>
         <div>
           ユーザー登録は<Link to={'/signup'}>こちら</Link>から

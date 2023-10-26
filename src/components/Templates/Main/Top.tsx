@@ -3,18 +3,25 @@ import styles from './Top.module.css';
 
 import Welcome from './Welcome'
 import { auth } from '../../../firebase';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Navigate } from 'react-router-dom';
+import { useAuthContext } from '../../../context/AuthContext';
 
 const Top = () => {
   const navigate =useNavigate();
+  const { user } = useAuthContext();
   const handleLogout = () => {
     auth.signOut();
     navigate('/login');
   };
+{/*
+  if (!user) {
+    return <Navigate to="/login" />;
+  } else {*/}
   return (
     <>
       <div>
         <Welcome />
+        <a href="/login">ログイン</a>
         <button onClick={handleLogout}>ログアウト</button>
       </div>
       <h2>新着通知</h2>
@@ -47,6 +54,7 @@ const Top = () => {
       </div>
     </>
   );
+{/*  } */}
 };
 
 export default Top;
