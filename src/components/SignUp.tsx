@@ -1,8 +1,6 @@
-import React, { FormEvent, useState } from 'react';
 import { auth } from '../firebase';
 import { AuthProvider } from '../context/AuthContext';
 import styles from './SignUp.module.css';
-import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 
 const SignUp = () => {
