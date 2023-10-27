@@ -1,0 +1,17 @@
+.login_form div{
+  margin-bottom: .5rem;
+}
+.login_form div:last-child{
+  text-align: center;
+}
+
+.login_form div button{
+  border: none;
+  width: 100%;
+  max-width: 300px;
+  padding: 0.25rem;
+}
+
+.signup_link{
+  margin-top: 1rem;
+}

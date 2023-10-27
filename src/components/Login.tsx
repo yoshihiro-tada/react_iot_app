@@ -1,5 +1,7 @@
 import { auth } from '../firebase';
 import { Link, useNavigate } from 'react-router-dom';
+import styles from './Login.module.css';
+import Button from '@mui/material/Button';
 
 const Login = () => {
   const navigate = useNavigate()
@@ -13,7 +15,7 @@ const Login = () => {
   return (
     <>
       <h2>ログイン</h2>
-      <form onSubmit={handleSubmit}>
+      <form className={styles.login_form} onSubmit={handleSubmit}>
         <div>
           <label>メールアドレス</label>
           <input name="email" type="email" placeholder="email" />
@@ -23,12 +25,10 @@ const Login = () => {
           <input name="password" type="password" />
         </div>
         <div>
-            <button>ログイン</button>
-        </div>
-        <div>
-          ユーザー登録は<Link to={'/signup'}>こちら</Link>から
+            <button><Button variant="contained"  size="small" sx={{fontSize: 12}}>ログイン</Button></button>
         </div>
       </form>
+      <div className={styles.signup_link}>ユーザー登録は<Link to={'/signup'}>こちら</Link>から</div>
     </>
   );
 
