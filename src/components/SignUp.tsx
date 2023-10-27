@@ -26,7 +26,10 @@ const SignUp = () => {
           <input name="password" type="password" />
         </div>
         <div>
+          <button>登録</button>
+          {/* 何故かButtonがうまく機能しないのでMUIを使わずに運用する
           <Button variant="contained"  size="small" sx={{fontSize: 12}}>登録</Button>
+          */}
         </div>
       </form>
       <div className={styles.login_link}>※ログインは<Link to={'/login'}>こちら</Link>から</div>
