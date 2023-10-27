@@ -22,7 +22,6 @@ const Top = () => {
     <>
       <div>
         <Welcome />
-        <a href="/login">ログイン</a>
         <button onClick={handleLogout}>ログアウト</button>
       </div>
       <h2>新着通知</h2>
