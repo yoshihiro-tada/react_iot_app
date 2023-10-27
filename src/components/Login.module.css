@@ -1,10 +1,20 @@
 .login_form div{
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
 }
+/*
 .login_form div:last-child{
   text-align: center;
 }
-
+*/
+/*
+.login_form div label{
+  margin-right: 1rem;
+}
+*/
+.login_form div input{
+  display: block;
+  margin-top: 0.25rem;
+}
 .login_form div button{
   border: none;
   width: 100%;
