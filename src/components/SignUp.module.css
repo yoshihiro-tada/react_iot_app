@@ -1,0 +1,22 @@
+.signup_form div{
+  margin-bottom: 1rem;
+  
+}
+.signup_form div label{
+  font-size: 140%;
+}
+.signup_form div input{
+  font-size: 140%;
+  display: block;
+  margin-top: 0.25rem;
+}
+.signup_form div button{
+  border: none;
+  width: 100%;
+  max-width: 300px;
+  padding: 0.25rem;
+}
+
+.login_link{
+  margin-top: 1rem;
+}

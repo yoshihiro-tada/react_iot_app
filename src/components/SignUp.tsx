@@ -1,6 +1,9 @@
 import React, { FormEvent, useState } from 'react';
 import { auth } from '../firebase';
 import { AuthProvider } from '../context/AuthContext';
+import styles from './SignUp.module.css';
+import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 
 const SignUp = () => {
   const handleSubmit = (event:any) => {
@@ -13,7 +16,7 @@ const SignUp = () => {
     <>
       <AuthProvider>
       <h2>ユーザー登録</h2>
-      <form onSubmit={handleSubmit}>
+      <form className={styles.signup_form} onSubmit={handleSubmit}>
         <div>
           <label>メールアドレス</label>
           <input name="email" type="email" placeholder="email" />
@@ -23,9 +26,10 @@ const SignUp = () => {
           <input name="password" type="password" />
         </div>
         <div>
-          <button>登録</button>
+          <button><Button variant="contained"  size="small" sx={{fontSize: 12}}>登録</Button></button>
         </div>
       </form>
+      <div className={styles.login_link}>ログインは<Link to={'/login'}>こちら</Link>から</div>
       </AuthProvider>
     </>
   );

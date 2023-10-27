@@ -28,7 +28,7 @@ const Login = () => {
             <button><Button variant="contained"  size="small" sx={{fontSize: 12}}>ログイン</Button></button>
         </div>
       </form>
-      <div className={styles.signup_link}>ユーザー登録は<Link to={'/signup'}>こちら</Link>から</div>
+      <div className={styles.signup_link}>※ユーザー登録は<Link to={'/signup'}>こちら</Link>から</div>
     </>
   );
 
