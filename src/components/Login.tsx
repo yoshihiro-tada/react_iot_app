@@ -1,7 +1,6 @@
 import { auth } from '../firebase';
 import { Link, useNavigate } from 'react-router-dom';
 import styles from './Login.module.css';
-import Button from '@mui/material/Button';
 import { useState } from 'react';
 
 const Login = () => {
