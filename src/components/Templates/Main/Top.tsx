@@ -14,9 +14,10 @@ const Top = () => {
     navigate('/login');
   };
 
+  {/*
   if (!user) {
     return <Navigate to="/login" />;
-  } else {
+  } else {*/}
   return (
     <>
       <div>
@@ -54,7 +55,7 @@ const Top = () => {
       </div>
     </>
   );
-  }
+{/*  } */}
 };
 
 export default Top;
