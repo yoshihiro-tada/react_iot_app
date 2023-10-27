@@ -19,7 +19,12 @@
   border: none;
   width: 100%;
   max-width: 300px;
-  padding: 0.25rem;
+  padding: 0.5rem;
+  background-color: #1976D2;
+  color:white;
+  border-radius: 0.5rem;
+  font-size: 12px;
+  box-shadow: 2px 2px 4px #ddd;
 }
 
 .signup_link{

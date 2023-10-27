@@ -25,7 +25,10 @@ const Login = () => {
           <input name="password" type="password" />
         </div>
         <div>
-            <Button variant="contained"  size="small" sx={{fontSize: 12}}>ログイン</Button>
+          <button>ログイン</button>
+          {/*
+          <Button variant="contained"  size="small" sx={{fontSize: 12}}>ログイン</Button>
+          */}
         </div>
       </form>
       <div className={styles.signup_link}>※ユーザー登録は<Link to={'/signup'}>こちら</Link>から</div>
