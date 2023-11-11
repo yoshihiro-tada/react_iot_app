@@ -8,21 +8,27 @@ It's bad English, but please take a look.
 
 gif
 
-create new account
+**create new account**
 
 gif
 
-login
+**login**
 
 gif
 
-watch Power usage.
+**watch Power usage**
 
 ## Summary
 
 It's IoT web aplication.
 
-システム構成図
+image
+
+**System Configuration Diagram**
+
+image
+
+**Wiring the Raspberry Pi**
 
 ## Requirement
 
