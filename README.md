@@ -1,50 +1,73 @@
-# React IoT App
+# React IoT App ![logo](https://github.com/yoshihiro-tada/react_iot_app/blob/main/public/favicon.ico)
 
-image
+Welcome to my README!
 
-## demo
+It's bad English, but please take a look.
+
+## Demo
 
 gif
+
 create new account
 
 gif
+
 login
 
 gif
+
 watch Power usage.
 
-## summary
+## Summary
 
 It's IoT web aplication.
-image
 
-## requirement
+システム構成図
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Requirement
 
-### `npm run build`
+write later
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+|role|tool|ver|
+|:--|--:|--:|
+|front|React.js|-|
+|front|Node.js|-|
+|front|MUI|-|
+|API|Node-Red|-|
+|hosting|Vercel|-|
+|DB|AWS(IoT Core)|-|
+|machine|Rasberry Pi|-|
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.make workspace
 
-### `npm run eject`
+ex `mkdir example`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2.move to workspace
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ex `cd example`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3.clone the repositoly
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+ex `git clone --`
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+how to use write later.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Note
+
+You need to do the following.
+
+- deploy to Vercel
+- create aws account
+- set up IoT Core
+- create firebase account
+- use firebase Authetification(set environmental variables)
+
+I may write more details later...
+
+## Auther
+
+[Yoshihiro Tada](https://next-portfolio-yoshihiro-tada.vercel.app/)
