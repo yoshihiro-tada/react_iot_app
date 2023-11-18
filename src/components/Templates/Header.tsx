@@ -14,7 +14,7 @@ const Header: FC = () => {
   };
 
   return (
-    <React.Fragment>
+    <>
       <header>
         <div className={styles.header_bar}>
           <div className={styles.header_logo_btn}>
@@ -37,23 +37,8 @@ const Header: FC = () => {
         <Modal />
         */}
       </header>
-    </React.Fragment>
+    </>
   );
 };
-
-/*
-function Modal() {
-  return (
-    <div className={styles.header_hum_menu_bg}>
-      <div className={styles.header_hum_close_btn}>
-        <button>
-          <CloseIcon />
-        </button>
-      </div>
-      <Navigation />
-    </div>
-  );
-}
-*/
 
 export default Header;

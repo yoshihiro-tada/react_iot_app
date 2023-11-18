@@ -5,10 +5,8 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
 import Button from '@mui/material/Button';
 
-class Setting extends React.Component {
-  render() {
-    return (
-      <React.Fragment>
+const Setting = () => (
+  <>
         <h2>設定</h2>
         <div className={styles.setting_content}>
           <h3>LINE WORKS</h3>
@@ -18,9 +16,7 @@ class Setting extends React.Component {
           <h3>通知</h3>
           <FormControlLabel control={<Switch defaultChecked />} label="ON/OFF" />
         </div>
-      </React.Fragment>
-    );
-  }
-}
+  </>
+);
 
 export default Setting;

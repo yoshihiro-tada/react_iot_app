@@ -10,7 +10,7 @@ type Props = {
 
 export const HumButton: FC<Props> = ({ open, controls, label, onClick }) => {
   return (
-    <React.Fragment>
+    <>
       <button
         type = "button"
         aria-controls = { controls }
@@ -22,6 +22,6 @@ export const HumButton: FC<Props> = ({ open, controls, label, onClick }) => {
         <span className={styles.line_1}></span>
         <span className={styles.line_2}></span>
       </button>
-    </React.Fragment>
+    </>
   );
 };

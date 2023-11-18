@@ -16,7 +16,7 @@ type Props = {
 
 export const Navigation: FC<Props> = ({ open, id }) => {
   return (
-    <React.Fragment>
+    <>
       <nav id={id} aria-hidden={!open} className={styles.navigation}>
         <ul className={styles.header_hum_menu_lists}>
           <li className={styles.header_hum_menu_list}>
@@ -56,7 +56,7 @@ export const Navigation: FC<Props> = ({ open, id }) => {
           </li>
         </ul>
       </nav>
-    </React.Fragment>
+    </>
   )
 };
 

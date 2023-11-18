@@ -1,17 +1,13 @@
 import styles from './Footer.module.css';
 
-class Footer extends React.Component {
-  render() {
-    return (
-      <React.Fragment>
-      <footer>
-        <div className={styles.footer_bar}>
-          <div className={styles.copy_right}>&copy; Fukushin</div>
-        </div>
-      </footer>
-      </React.Fragment>
-    );
-  }
-}
+const Footer = () => (
+  <>
+    <footer>
+      <div className={styles.footer_bar}>
+        <div className={styles.copy_right}>&copy; Fukushin</div>
+      </div>
+    </footer>
+  </>
+)
 
 export default Footer;
