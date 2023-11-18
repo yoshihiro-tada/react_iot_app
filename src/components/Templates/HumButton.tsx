@@ -1,4 +1,3 @@
-import React from 'react';
 import { FC, MouseEventHandler} from "react";
 import styles from './HumButton.module.css';
 

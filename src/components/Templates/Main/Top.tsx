@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Top.module.css';
 
 import Welcome from './Welcome'

@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from './components/Templates/Header';
 import Top from './components/Templates/Main/Top';
 import Details from './components/Templates/Main/Details';

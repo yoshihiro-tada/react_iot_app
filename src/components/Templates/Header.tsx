@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Header.module.css';
 import { FC, useState } from "react";
 import { HumButton } from './HumButton'
