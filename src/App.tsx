@@ -20,8 +20,8 @@ function App() {
   return (
     <AuthProvider>
       <BrowserRouter>
-      <Header />
-      <main>
+        <Header />
+        <main>
         <Routes>
           {/* PrivateRoute ※ログインしていないときは登録ページ(/signup)へ飛ばす */}
           <Route path='/' element={<PrivateRoute/>}>
