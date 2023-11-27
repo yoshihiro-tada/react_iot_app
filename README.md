@@ -69,6 +69,7 @@ how to use write later.
 You need to do the following.
 
 - deploy to Vercel
+- prepare measuring equipment
 - create aws account
 - set up IoT Core
 - create firebase account
