@@ -39,9 +39,11 @@ write later
 |front|React.js|-|
 |front|Node.js|-|
 |front|MUI|-|
-|API|Node-Red|-|
+|backend|Node-Red|-|
+|backend|IoT Core(AWS)|-|
 |hosting|Vercel|-|
-|DB|AWS(IoT Core)|-|
+|infrastructure|Firebase|-|
+|DB|TimeStream(AWS)|-|
 |machine|Rasberry Pi|-|
 
 ## Installation
