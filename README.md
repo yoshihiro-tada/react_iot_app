@@ -70,6 +70,8 @@ You need to do the following.
 
 - deploy to Vercel
 - prepare measuring equipment
+- Wire the measuring equipment
+- set up Node-Red
 - create aws account
 - set up IoT Core
 - create firebase account
