@@ -22,7 +22,7 @@ gif
 
 It's IoT web aplication.
 
-image
+![System Configuration Diagram](https://github.com/yoshihiro-tada/react_iot_app/blob/main/public/react-iot-app.png)
 
 **System Configuration Diagram**
 
